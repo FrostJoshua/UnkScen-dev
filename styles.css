@@ -18,6 +18,24 @@ body{
     top:25vh;
     left:0;
 }
+#progress{
+    position: fixed;
+    top:0;
+    font-size: 400%;
+    right:0;
+    color:white;
+    padding:5px;
+    font-weight: bold;
+}
+#health{
+    position: fixed;
+    top:0;
+    left:0;
+    font-size: 400%;
+    color:red;
+    padding:5px;
+    font-weight: bold;
+}
 #up{
     height:25vh;
     top:0;
