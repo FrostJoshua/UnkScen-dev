@@ -1,0 +1,45 @@
+.direction{
+    position:fixed;
+    border-width: 2px;
+    border-style: dashed;
+    font-size: 500%;
+    border-radius: 5px;
+    color:white;
+    border-color: white;
+}
+body{
+    background-color: black;
+}
+#left
+{
+    width:49vw;
+    height:49vh;
+    text-align: center;
+    line-height: 49vh;
+    top:25vh;
+    left:0;
+}
+#up{
+    height:25vh;
+    top:0;
+    left:0;
+    line-height: 25vh;
+    text-align: center;
+    width: 100%;
+}
+#right{
+    width:49vw;
+    height:49vh;
+    text-align: center;
+    line-height: 49vh;
+    top:25vh;
+    right:0;
+}
+#down{
+    height:25vh;
+    line-height: 25vh;
+bottom:0;
+left:0;
+text-align: center;
+width: 100%;
+}
