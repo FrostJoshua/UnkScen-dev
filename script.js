@@ -7,6 +7,8 @@ var progress = 0;
 var healthDiv = document.getElementById("health");
 var health = 100;
 var progressDiv = document.getElementById("progress");
+
+
 left.addEventListener('click',function(){vibrate(randomInteger(300,500,0))});
 up.addEventListener('click',function(){vibrate(randomInteger(300,500,1))});
 right.addEventListener('click',function(){vibrate(randomInteger(300,500,2))});
@@ -37,6 +39,6 @@ function randomInteger(min, max,space) {
   }
 
   function nextSpace() {
-    var nextSpace = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
+    var nextSpace = Math.floor(Math.random() * (4));
     inSpace = nextSpace;
   }
