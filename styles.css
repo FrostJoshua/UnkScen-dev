@@ -1,11 +1,10 @@
 .direction{
     position:fixed;
-    border-width: 2px;
-    border-style: dashed;
+
     font-size: 500%;
-    border-radius: 5px;
+
     color:white;
-    border-color: white;
+
 }
 body{
     background-color: black;
