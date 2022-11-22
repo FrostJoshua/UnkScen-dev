@@ -132,7 +132,7 @@ window.navigator.vibrate(ms);
         if (obstacle == false)
         {
             prevSpace == nextSpace;
-            vibrate([80, 100, 80, 100, 80]);
+            vibrate([100, 150, 100, 150, 100]);
             createSpace()
             stepForward(1)
           
